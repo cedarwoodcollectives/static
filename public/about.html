@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Cedarwood Collectives - Ayurvedic Tourism</title>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Serif:wght@400;500;700;900&amp;family=Noto+Sans:wght@400;500;700;900" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+      :root {
+        --primary-color: #85b152;
+        --secondary-color: #ece2df;
+        --accent-color: #c4a664;
+        --text-primary: #333333;
+        --text-secondary: #594a41;
+        --background-color: #f9f9f9;
+      }
+      body {
+        font-family: 'Noto Serif', sans-serif;
+        background-color: var(--background-color);
+        color: var(--text-primary);
+      }
+      .button_primary {
+        @apply bg-[var(--primary-color)] hover:bg-[#4f9051] text-white font-bold py-3 px-6 rounded-lg transition-colors duration-300;
+      }
+      .button_secondary {
+        @apply bg-[var(--secondary-color)] hover:bg-[#dcd1ce] text-[var(--text-secondary)] font-bold py-2 px-4 rounded-lg transition-colors duration-300;
+      }
+      .typography_h1 {
+        @apply text-4xl font-bold text-white mb-4;
+      }
+      .typography_h2 {
+        @apply text-3xl font-bold text-[var(--text-primary)] mb-4;
+      }
+      .typography_body {
+        @apply text-base text-[var(--text-secondary)] leading-relaxed;
+      }
+      .card {
+        @apply bg-white rounded-xl shadow-lg overflow-hidden;
+      }
+    </style>
+</head>
+<body class="bg-[var(--background-color)] text-[var(--text-primary)]">
+<div class="relative flex size-full min-h-screen flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<header class="sticky top-0 z-50 bg-white/80 backdrop-blur-sm shadow-sm">
+<div class="container mx-auto flex items-center justify-between whitespace-nowrap px-6 py-4">
+<div class="flex items-center gap-3">
+<svg class="h-8 w-8 text-[var(--primary-color)]" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 6H42L36 24L42 42H6L12 24L6 6Z" fill="currentColor"></path>
+</svg>
+<h2 class="text-2xl font-bold tracking-tight text-[#4f9051]">Cedarwood Collectives</h2>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium text-[var(--text-secondary)] hover:text-[var(--primary-color)] transition-colors" href="#">Home</a>
+<a class="text-sm font-medium text-[var(--text-secondary)] hover:text-[var(--primary-color)] transition-colors" href="#">Hotels</a>
+<a class="text-sm font-medium text-[var(--text-secondary)] hover:text-[var(--primary-color)] transition-colors" href="#">Resorts</a>
+<a class="text-sm font-medium text-[var(--text-secondary)] hover:text-[var(--primary-color)] transition-colors" href="#">Contact Us</a>
+</nav>
+<a class="button_primary hidden md:inline-block" href="#"> Book Now </a>
+<button class="md:hidden rounded-md p-2 text-[var(--text-secondary)] hover:bg-gray-100">
+<svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6h16M4 12h16m-7 6h7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</button>
+</div>
+</header>
+<main class="flex-1">
+<section class="relative min-h-[60vh] flex items-center justify-center bg-cover bg-center" style='background-image: linear-gradient(rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.6) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBbYaJTIk45-YZoQlWQGyIRylM8NsAdBLrwkO_XzioMSqVlAg_BAuoG_7C0-XdQyJONmjpItotJduIY2jMlEuMfIGoBrhcnyF3bbMP0urAw7EPtHX87nFi4LyNhpqkoJ1Y315xsntqoygJlnjk57SYiSYWRFuRD9G_P4Wsbplwij6wafO5aOqSqTwwx95nwCj_XdjH9DniwM7D-OfyIhpVAHIVVovfUxjYgA2YVmL4C0wojDA4AImgdXO446xKgT-uCBIotLtVlUdI");'>
+<div class="text-center text-white px-4">
+<h1 class="typography_h1 text-5xl md:text-6xl font-black tracking-tighter">Discover Your Path to Wellness</h1>
+<p class="typography_body max-w-2xl mx-auto mt-4 text-lg text-gray-200">
+                Experience the ancient wisdom of Ayurveda in the heart of nature. Our resorts offer personalized wellness journeys to rejuvenate your mind, body, and spirit.
+              </p>
+<a class="button_primary mt-8 inline-block" href="#"> Explore Resorts </a>
+</div>
+</section>
+<section class="py-20 bg-white">
+<div class="container mx-auto px-6">
+<div class="max-w-3xl mx-auto text-center">
+<h2 class="typography_h2">Our Philosophy</h2>
+<p class="typography_body mt-4">
+                  At Cedarwood Collectives, we believe in the power of Ayurveda to restore balance and harmony within. Our approach combines traditional Ayurvedic practices with modern comforts, creating a sanctuary for holistic healing and self-discovery. We are committed to providing authentic, personalized experiences that honor the unique needs of each guest.
+                </p>
+</div>
+</div>
+</section>
+<section class="py-20 bg-[var(--background-color)]">
+<div class="container mx-auto px-6">
+<h2 class="typography_h2 text-center mb-12">Resort Highlights</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+<div class="card">
+<div class="w-full h-56 bg-center bg-no-repeat bg-cover" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAV-rf_H-2sxvsDNTxN_1eptX4yBkr2VaU9o_4ViWWvBJAQr8gAKc-FitsIrRFjAnPqOdA3oJz5a0zHE07gxPCEe7iYKT1VVw0cXuAr7JNleGmxRSvYzwU8SmTSc3Ga2jcCOvwIgMV81HnRCEpD85BNvmu4v1u7aQ0jstkmzneW6H5BIdY7NiAa9lPVYqn6H-0c0F18fy0HVGLmbxTacvEem-Gjhy7w1lk5X94XeEEdKzOoHgxhoJPixpcRVjNy1_pvk3lIF3K20ek");'></div>
+<div class="p-6">
+<h3 class="text-xl font-semibold text-[var(--text-primary)] mb-2">Personalized Wellness Programs</h3>
+<p class="typography_body">Our programs are tailored to your individual dosha and health goals, ensuring a deeply transformative experience.</p>
+</div>
+</div>
+<div class="card">
+<div class="w-full h-56 bg-center bg-no-repeat bg-cover" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCt7Qni6NZ1NdC21NDpu4RJ94GLz7olvM8uaKCK9aHYsCyRDFbZgRwsmnYBC8QWLczqtKG_hQMYD0dk9Vl9wAE8idPFfjOnyN84NaqrYode3dRiQQy1Ou2Ptl8RUUUzjxi7m8aCFvxLwgFXBOZo4kiFvHOFU68rHCvjajmLLl1i0UXQE8ACrJGwCQH11ebvS2FBdfRwC3nV5iOhKb15vAaZUtAwO_DYpr7yvqqQ-1GQCVoutOnMWgNjwr_LcwzHoiKMAwmzAa3K1tg");'></div>
+<div class="p-6">
+<h3 class="text-xl font-semibold text-[var(--text-primary)] mb-2">Expert Ayurvedic Practitioners</h3>
+<p class="typography_body">Our team of experienced practitioners provides expert guidance and support throughout your wellness journey.</p>
+</div>
+</div>
+<div class="card">
+<div class="w-full h-56 bg-center bg-no-repeat bg-cover" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDpEgRGBTULLVOod9iMNJKDJY5jaOEagVAuO18-5o4W8PZZYvkfNqvb8YzslPzfEcW05RCGOu9twJJ9iABNigJQ5-aCfQJmNZw7Mh6bI5UQKUggevTlV5Aq2ZXlIfFWFWZeOQbLgcG-IuYaq-JpwM_FaM-V4ua40BHJMJ0jquDVQLA76CR_fgtP_ERAGZzxoVRZfbCbtMPnENYJXWVQLYPQ3Jpkg2p81dPyG7TfWP2NGOdEPousQHyrAa_UUHaxUuj_nPsVl-YOCG0");'></div>
+<div class="p-6">
+<h3 class="text-xl font-semibold text-[var(--text-primary)] mb-2">Sustainable &amp; Eco-Friendly</h3>
+<p class="typography_body">We are dedicated to preserving the natural environment and supporting local communities.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 bg-white">
+<div class="container mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+<div>
+<h2 class="typography_h2">Accommodations</h2>
+<p class="typography_body mt-4">
+                  Our resorts offer a range of accommodations designed to provide comfort and tranquility. From cozy cottages to luxurious suites, each space is thoughtfully crafted to enhance your relaxation and rejuvenation. All rooms feature natural materials, soothing decor, and modern amenities.
+                </p>
+</div>
+<div>
+<h2 class="typography_h2">Dining</h2>
+<p class="typography_body mt-4">
+                  Nourish your body with delicious, Ayurvedic cuisine prepared with fresh, locally sourced ingredients. Our chefs create balanced meals that support your wellness journey, catering to dietary preferences and dosha requirements. Enjoy mindful dining in serene settings, surrounded by nature's beauty.
+                </p>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-[#4f9051] text-white">
+<div class="container mx-auto px-6 py-10">
+<div class="flex flex-wrap items-center justify-between">
+<div class="flex flex-wrap gap-x-8 gap-y-4 mb-6 md:mb-0">
+<a class="hover:text-gray-300 transition-colors" href="#">Home</a>
+<a class="hover:text-gray-300 transition-colors" href="#">Hotels</a>
+<a class="hover:text-gray-300 transition-colors" href="#">Resorts</a>
+<a class="hover:text-gray-300 transition-colors" href="#">Contact Us</a>
+<a class="hover:text-gray-300 transition-colors" href="#">Blog</a>
+</div>
+<p class="text-sm text-gray-300">© 2025 Cedarwood Collectives. All rights reserved.</p>
+</div>
+</div>
+</footer>
+</div>
+</div>
+
+</body></html>

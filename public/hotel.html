@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Cedarwood Collectives - Ayurvedic Tourism</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+      :root {
+        --primary-color: #85b152;
+        --primary-darker: #4f9051;
+        --secondary-color: #ece2df;
+        --secondary-darker: #594a41;
+        --accent-color: #c4a664;
+        --background-color: #f9f9f9;
+        --text-primary: #000;
+        --text-secondary: #594a41;
+      }
+      body {
+        font-family: 'Noto Serif', serif;
+        background-color: var(--background-color);
+        color: var(--text-primary);
+      }
+      .button_primary {
+        @apply bg-[var(--primary-color)] hover:bg-[var(--primary-darker)] text-white font-bold py-3 px-6 rounded-lg transition-colors duration-300;
+      }
+      .button_secondary {
+        @apply bg-[var(--secondary-color)] hover:bg-[#e0d8d5] text-[var(--text-secondary)] font-bold py-3 px-6 rounded-lg transition-colors duration-300;
+      }
+      .typography_h1 {
+        @apply text-5xl font-black text-[var(--text-primary)] mb-4 tracking-tight;
+      }
+      .typography_h2 {
+        @apply text-2xl font-bold text-[var(--text-primary)] mb-2;
+      }
+      .typography_body {
+        @apply text-lg text-[var(--text-secondary)] leading-relaxed;
+      }
+    </style>
+</head>
+<body>
+<div class="flex flex-col min-h-screen">
+<header class="bg-white shadow-md sticky top-0 z-50">
+<nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+<a class="flex items-center gap-3" href="#">
+<svg class="h-8 w-8 text-[var(--primary-darker)]" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 6H42L36 24L42 42H6L12 24L6 6Z" fill="currentColor"></path>
+</svg>
+<span class="text-2xl font-bold text-[var(--primary-darker)]">Cedarwood Collectives</span>
+</a>
+<div class="hidden md:flex items-center space-x-8">
+<a class="text-[var(--text-secondary)] hover:text-[var(--primary-color)] transition-colors duration-300" href="#">Home</a>
+<a class="text-[var(--text-secondary)] hover:text-[var(--primary-color)] transition-colors duration-300" href="#">Hotels</a>
+<a class="text-[var(--text-secondary)] hover:text-[var(--primary-color)] transition-colors duration-300" href="#">Resorts</a>
+<a class="text-[var(--text-secondary)] hover:text-[var(--primary-color)] transition-colors duration-300" href="#">Contact Us</a>
+</div>
+<a class="button_primary hidden md:inline-block" href="#"> Book Now </a>
+<button class="md:hidden focus:outline-none">
+<svg class="w-6 h-6 text-[var(--text-secondary)]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6h16M4 12h16m-7 6h7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</button>
+</nav>
+</header>
+<main class="flex-grow">
+<section class="py-20 text-center px-4">
+<div class="container mx-auto">
+<h1 class="typography_h1">Our Exquisite Hotels</h1>
+<p class="typography_body max-w-3xl mx-auto mt-4">
+              Discover the unique charm and Ayurvedic offerings of each of our carefully selected hotels. From serene retreats to luxurious resorts, find the perfect setting for your wellness journey.
+            </p>
+</div>
+</section>
+<section class="pb-20 px-4">
+<div class="container mx-auto space-y-16">
+<div class="grid md:grid-cols-2 gap-12 items-center">
+<div class="rounded-xl overflow-hidden shadow-2xl">
+<img alt="Serenity Haven" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBE87wnSJnDPA7nBFkZYAuD7pB09uAhlafCZfltK-D5DR9gk4DIBZQt0blkFFhwFpkQ0Vffkwqo7GgqorXV2iQMVSETgQakdDbVZb_97zhGow7YWlNDfR8lGkGAaWz67RAPqjI8pYKOTFdpDCbFZaEe0OnVGiiAQXA3RFwyaEU8p1tBXiJ6KagAQm3vYx8B2jwGqEtlnblCGpV0pylVtQyoS8OTmY94UiT05cRzKY0lRiS3xuipzIbI0cANVuideD5PYliEhZ7InYI"/>
+</div>
+<div>
+<h2 class="typography_h2">Serenity Haven</h2>
+<p class="font-semibold text-[var(--primary-color)] mb-3">A tranquil escape for holistic healing</p>
+<p class="typography_body">
+                  Nestled in the heart of the Western Ghats, this serene retreat offers a traditional Ayurvedic experience with personalized treatments and yoga sessions. Surrounded by lush greenery, it's the perfect place to reconnect with nature and find inner peace.
+                </p>
+</div>
+</div>
+<div class="grid md:grid-cols-2 gap-12 items-center">
+<div class="md:order-2 rounded-xl overflow-hidden shadow-2xl">
+<img alt="Himalayan Wellness Resort" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAS8sG8s5FZ-WtxQbJgT7O3wFa04YbfM6c_q_SKXHGZN7Ya3a9AoNd3OEQ68L1MqEyj4D2tQwoAiykH1k_VLDqJgNyp8Pet_rHXFMKYhKLG3G1rpYcYFYiqnTl710-0qpv-Of_mX6Oo1NItdM7dM6wATXAdWWUI1dEYPGXEAqdfLi2c2Q7txFaeqcinWeWHKOcc2n2RfFmQwpLZ_GKWIPn9t50Y7fuLiUUmJpXQLZJh0F1t6ba70k5-JHMDVMqa8G-JdOyWF8pacyI"/>
+</div>
+<div class="md:order-1">
+<h2 class="typography_h2">Himalayan Wellness Resort</h2>
+<p class="font-semibold text-[var(--primary-color)] mb-3">Luxury meets holistic healing in the Himalayas</p>
+<p class="typography_body">
+                  Experience luxury and wellness at this exquisite resort. With world-class Ayurvedic therapies, gourmet dining, and breathtaking views of the Himalayas, it's a haven for rejuvenation and relaxation.
+                </p>
+</div>
+</div>
+<div class="grid md:grid-cols-2 gap-12 items-center">
+<div class="rounded-xl overflow-hidden shadow-2xl">
+<img alt="Coastal Ayurvedic Retreat" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDP97E2k8-ktd2-a07gsN027JfDsEmyTXO8GSXt_svCf8WY9cvJUFrRnebDR6Ax322wIw7jMEFY-QQPJl04YAExphcKJ247WFmCPgFgCR2tWyzcxVE5ZWmrTLo6p-EjpR1vORhmsEAztV9a4dB7gHxd0aGMuD91umKDqCKg6RgSjwPPqCGsjXQVXGnYfSJIXn-Qlq0ST10VpTnRuQRbu9eXeg4MfnyW8BW4-G4dD1JYjSFBOLjNL8cX0odRd4fW8X3M7VmOjrJWnC4"/>
+</div>
+<div>
+<h2 class="typography_h2">Coastal Ayurvedic Retreat</h2>
+<p class="font-semibold text-[var(--primary-color)] mb-3">Rejuvenate by the sea with Ayurvedic therapies</p>
+<p class="typography_body">
+                  Located on the pristine beaches of the Indian Ocean, this resort combines Ayurvedic treatments with the soothing sounds of the sea. Enjoy personalized wellness programs, beachside yoga, and fresh, healthy cuisine.
+                </p>
+</div>
+</div>
+<div class="grid md:grid-cols-2 gap-12 items-center">
+<div class="md:order-2 rounded-xl overflow-hidden shadow-2xl">
+<img alt="Kerala Heritage Ayurvedic Center" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZCZHhe6a5xu8OSDYFgXuVVypjabvS7d18A9-jTtA0Sfi6WB0u_rnSrjD-6Dk0I167mmkpW5vto3bCbBeBGZNfNf3Pfwdws73r2VjxjBnM76SJOuBammiU95CXadLBwygHiB2eQPLwIOx7APCC4iL9Gib1Pztx9bScRASNYG5HWHVvixf1bykmTv3FExHFzeD1EIXEMZ8NHDs_RISMcuCuaKnhguxI3KwHAO0eODsGSFbUYAG0SU9FELMVcD1SInwPt-xpprEMP5Q"/>
+</div>
+<div class="md:order-1">
+<h2 class="typography_h2">Kerala Heritage Ayurvedic Center</h2>
+<p class="font-semibold text-[var(--primary-color)] mb-3">Experience the essence of traditional Ayurveda</p>
+<p class="typography_body">
+                  Immerse yourself in the rich cultural heritage of Kerala at this traditional Ayurvedic center. Experience authentic treatments, stay in heritage cottages, and learn about the ancient practices of Ayurveda.
+                </p>
+</div>
+</div>
+</div>
+</section>
+<section class="bg-[var(--secondary-color)] py-20 px-4">
+<div class="container mx-auto text-center">
+<h2 class="text-3xl font-bold text-[var(--secondary-darker)]">Ready for your wellness journey?</h2>
+<p class="typography_body mt-4 max-w-2xl mx-auto"> Explore all our unique properties or get in touch with our team to plan your perfect Ayurvedic escape. </p>
+<div class="mt-8 flex justify-center gap-4 flex-wrap">
+<a class="button_primary" href="#">View All Hotels</a>
+<a class="button_secondary" href="#">Contact Us</a>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-white border-t border-[var(--secondary-color)]">
+<div class="container mx-auto px-6 py-8">
+<div class="flex flex-wrap justify-between items-center">
+<div class="text-[var(--text-secondary)] mb-4 md:mb-0"> © 2025 Cedarwood Collectives. All rights reserved. </div>
+<div class="flex space-x-6">
+<a class="text-[var(--text-secondary)] hover:text-[var(--primary-color)] transition-colors duration-300" href="#">Home</a>
+<a class="text-[var(--text-secondary)] hover:text-[var(--primary-color)] transition-colors duration-300" href="#">Hotels</a>
+<a class="text-[var(--text-secondary)] hover:text-[var(--primary-color)] transition-colors duration-300" href="#">Resorts</a>
+<a class="text-[var(--text-secondary)] hover:text-[var(--primary-color)] transition-colors duration-300" href="#">Contact Us</a>
+<a class="text-[var(--text-secondary)] hover:text-[var(--primary-color)] transition-colors duration-300" href="#">Blog</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+
+</body></html>
